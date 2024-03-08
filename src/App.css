@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+h1 {
+    font-family: 'Belanosima'
+}
+h2 {
+    font-family: 'Belanosima'
+}
+p {
+    font-family: 'Belanosima'
+}
+div {
+    font-family: 'Belanosima'
+}
+.scroll-top {
+    position: fixed;
+    height: 50px;
+    bottom: 10%;
+    left: 93%;
+    cursor: pointer;
+}
