@@ -4,7 +4,10 @@ import React from 'react'
 
 function Location() {
   return (
-    <h2>Where can you find us?</h2>
+    <div>
+      <h2>Where can you find us?</h2>
+      <p>input a map here</p>
+    </div>
   )
 }
 

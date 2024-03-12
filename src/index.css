@@ -1,3 +1,19 @@
 .btn-homepage:hover {
     transform: scale(1.2)
 }
+
+.arrow-btn:hover {
+    transform: translateX(7px);
+    transform:scale3d(1.2)
+}
+
+.homepage-h1 {
+    animation: animateLeft 1.5s   
+}
+
+@keyframes animateLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+}

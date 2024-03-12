@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+
 h1 {
-    font-family: 'Belanosima'
+    font-family: 'Marcellus'
 }
 h2 {
-    font-family: 'Belanosima'
+    font-family: 'Marcellus'
 }
 p {
-    font-family: 'Belanosima'
+    font-family: 'Marcellus'
 }
 div {
-    font-family: 'Belanosima'
+    font-family: 'Marcellus'
 }
 .scroll-top {
     position: fixed;
