@@ -11,6 +11,8 @@ import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Scroll from './components/Scroll';
 import Footer from './components/Footer';
+import Error from './pages/Error';
+import ServiceTestimonial from './pages/ServiceTestimonial';
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
       <Route path="/contact" element={<Contact/>}></Route>
       <Route path="/services" element={<Services/>}></Route>
       <Route path="/services/:slug" element={<ServiceDetails/>}></Route>
+      <Route path="/services/add-testimonial" element={<ServiceTestimonial/>}></Route>
+      <Route path="*" element={<Error></Error>}></Route>
     </Routes>
     <Scroll/>
     <Footer/>

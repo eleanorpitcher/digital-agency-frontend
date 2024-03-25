@@ -23,3 +23,7 @@ div {
     left: 93%;
     cursor: pointer;
 }
+
+.nav-link:hover {
+    transform:scale(1.1)
+}

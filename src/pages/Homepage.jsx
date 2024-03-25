@@ -11,7 +11,7 @@ function Homepage() {
             </div>
         </div>
         <div className="pt-5" >
-          <div className="row p-5 align-items-center" style={{backgroundColor: '#FDE5D4'}}>
+          <div className="row p-5 align-items-center" style={{backgroundColor: '#F4F1DE'}}>
             <div className="col-6">
               <img src={sustainableOffice} style={{maxWidth: '100%', minHeight: '100%'}} />
             </div>
@@ -21,10 +21,10 @@ function Homepage() {
               </div>
               <div className="row text-center">
                 <div className="col-6">
-                <Link to='/about'><button className="fs-4 p-3 btn-homepage" style={{border: 'none', borderRadius: '5px', backgroundColor: '#D6CC99', color: '#001524'}}>About Elevate</button></Link>
+                <Link to='/about'><button className="fs-4 p-3 btn-homepage" style={{border: 'none', borderRadius: '5px'}}>About Elevate</button></Link>
                 </div>
                   <div className="col-6">
-                    <Link to='/contact'><button className="fs-4 p-3 btn-homepage" style={{border: 'none', borderRadius: '5px', backgroundColor: '#D6CC99', color: '#001524'}}>Work with us</button></Link>
+                    <Link to='/contact'><button className="fs-4 p-3 btn-homepage" style={{border: 'none', borderRadius: '5px'}}>Work with us</button></Link>
                 </div>
               </div>
             </div>

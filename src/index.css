@@ -1,5 +1,19 @@
+.btn-homepage {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #445D48 0%, #445D48 50%, #D6CC99 50%, #D6CC99 100%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: white;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-position 0.3s ease;
+}
+
 .btn-homepage:hover {
-    transform: scale(1.2)
+    background-position: left bottom;
 }
 
 .arrow-btn:hover {
@@ -16,4 +30,8 @@
         opacity: 0;
         transform: translateX(-200px)
     }
+}
+
+.btn-testimonial {
+    border: 1px solid black;
 }
